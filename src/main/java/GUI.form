@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="18" y="20" width="835" height="611"/>
+    </constraints>
+    <properties>
+      <background color="-986896"/>
+    </properties>
+    <border type="bevel-lowered">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="4cd9a" class="javax.swing.JComboBox" binding="comboBoxFrom">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="USD"/>
+            <item value="EUR"/>
+            <item value="CHF"/>
+            <item value="GBP"/>
+          </model>
+        </properties>
+      </component>
+      <component id="dcd26" class="javax.swing.JButton" binding="convertButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Convert"/>
+        </properties>
+      </component>
+      <hspacer id="a184b">
+        <constraints>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="20" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="c5f16" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="2"/>
+          <text value="From"/>
+        </properties>
+      </component>
+      <hspacer id="71c06">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="20" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="fd4af" class="javax.swing.JComboBox" binding="comboBoxTo">
+        <constraints>
+          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="USD"/>
+            <item value="EUR"/>
+            <item value="CHF"/>
+            <item value="GBP"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e546f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="To"/>
+        </properties>
+      </component>
+      <component id="614cb" class="javax.swing.JTextField" binding="txtAmount">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <maximumSize width="200" height="200"/>
+          <minimumSize width="30" height="25"/>
+          <opaque value="false"/>
+          <preferredSize width="50" height="30"/>
+          <text value=""/>
+        </properties>
+        <clientProperties>
+          <caretWidth class="java.lang.Integer" value="0"/>
+        </clientProperties>
+      </component>
+      <hspacer id="26c67">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="6210f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Amount"/>
+        </properties>
+      </component>
+      <vspacer id="d93b6">
+        <constraints>
+          <grid row="8" column="0" row-span="3" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="9a5b3">
+        <constraints>
+          <grid row="7" column="4" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="a4f2a" class="javax.swing.JLabel" binding="lblToFromRatio">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="    "/>
+        </properties>
+      </component>
+      <component id="94fb" class="javax.swing.JLabel" binding="lblConvertedAmount">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="    "/>
+        </properties>
+      </component>
+      <component id="8ddff" class="javax.swing.JLabel" binding="lblPrevAmount">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="   "/>
+        </properties>
+      </component>
+      <component id="6bbdf" class="javax.swing.JLabel" binding="lblFromToRatio">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="     "/>
+          <toolTipText value="  "/>
+        </properties>
+      </component>
+      <vspacer id="57d65">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="60d0" class="javax.swing.JLabel" binding="lblWarning">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="The API request can sometimes take a moment."/>
+        </properties>
+      </component>
+      <component id="18425" class="javax.swing.JLabel" binding="lblError">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <foreground color="-4516864"/>
+          <text value="   "/>
+        </properties>
+      </component>
+      <vspacer id="393ee">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="59957">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
